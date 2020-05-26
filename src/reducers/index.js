@@ -1,14 +1,13 @@
-import { combineReducers } from 'redux'
-import app from './app'
-import dictionary from './dictionary'
+import { combineReducers } from 'redux';
+
+import app from './app';
 
 const appReducer = combineReducers({
-  app,
-  dictionary,
-})
+    app,
+});
 
 const rootReducer = (state, action) => {
-  return appReducer(state, action)
-}
+    return appReducer(state, action);
+};
 
-export default rootReducer
+export default rootReducer;

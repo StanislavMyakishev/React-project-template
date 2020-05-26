@@ -4,8 +4,13 @@
     "jest": true,
     "es6": true
   },
-  "plugins": ["import"],
-  "extends": ["plugin:prettier/recommended"],
+  "plugins": [
+    "import",
+    "simple-import-sort"
+  ],
+  "extends": [
+    "plugin:prettier/recommended"
+  ],
   "parser": "babel-eslint",
   "parserOptions": {
     "ecmaVersion": 2020,
@@ -16,8 +21,10 @@
     }
   },
   "rules": {
-    "no-console": "warn",
-    "no-eval": "error",
-    "import/first": "error"
+    "jsx-quotes": [
+      1,
+      "prefer-double"
+    ],
+    "simple-import-sort/sort": "error"
   }
 }

@@ -1,4 +1,4 @@
 export default {
-  root: '/',
-  notFound: '*',
-}
+    root: '/',
+    notFound: '*',
+};

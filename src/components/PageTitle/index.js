@@ -1,7 +1,7 @@
-import React from 'react'
+import React from 'react';
 
-const Index = ({ title }) => {
-  return <h2>{title}</h2>
-}
+const Title = ({ title }) => {
+    return <h2>{title}</h2>;
+};
 
-export default Index
+export default Title;
